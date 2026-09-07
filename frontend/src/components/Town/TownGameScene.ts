@@ -419,9 +419,9 @@ export default class TownGameScene extends Phaser.Scene {
     const label = this.add
       .text(spawnPoint.x, spawnPoint.y - 20, '(You)', {
         font: '18px monospace',
-        color: '#000000',
+        color: '#ffffff',
         // padding: {x: 20, y: 10},
-        backgroundColor: '#ffffff',
+        backgroundColor: '#bc13fe',
       })
       .setDepth(6);
     this.coveyTownController.ourPlayer.gameObjects = {
